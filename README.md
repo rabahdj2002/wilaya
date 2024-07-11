@@ -36,6 +36,14 @@ This Python module provides functionality for searching and retrieving informati
    - Returns: A dictionary containing information about the Baladiya.
    - Raises: Exception if the provided name is invalid or not found.
 
+### Installation:
+
+To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
+
+```
+from wilaya import handler
+```
+
 #### Usage Example:
 
 ```python
@@ -62,13 +70,7 @@ baladiya_info_by_name = handler_instance.searchBaladiya("Ouled Fayet")
 print(baladiya_info_by_name)
 ```
 
-### Installation:
 
-To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
-
-```
-import wilaya
-```
 
 ### Summary:
 
