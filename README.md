@@ -64,7 +64,12 @@ print(baladiya_info_by_name)
 
 ### Installation:
 
-To use this module, you need to have the JSON files containing the Wilaya and Commune data. Ensure these files are named `Wilaya_Of_Algeria.json` and `Commune_Of_Algeria.json` respectively, and are located in a directory named `wilaya/` relative to your script.
+To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
+
+python
+```
+import wilaya
+```
 
 ### Summary:
 
