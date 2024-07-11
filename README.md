@@ -66,7 +66,6 @@ print(baladiya_info_by_name)
 
 To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
 
-python
 ```
 import wilaya
 ```
