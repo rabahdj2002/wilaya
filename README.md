@@ -40,7 +40,7 @@ This Python module provides functionality for searching and retrieving informati
 
 ```python
 # Import the handler class from the module
-from your_module_name import handler
+from wilaya import handler
 
 # Create an instance of the handler class
 handler_instance = handler()
@@ -58,7 +58,7 @@ baladiyat_list = handler_instance.getBaladiyat(16)
 print(baladiyat_list)
 
 # Search for a Baladiya by its name
-baladiya_info_by_name = handler_instance.searchBaladiya("Sidi M'Hamed")
+baladiya_info_by_name = handler_instance.searchBaladiya("Ouled Fayet")
 print(baladiya_info_by_name)
 ```
 

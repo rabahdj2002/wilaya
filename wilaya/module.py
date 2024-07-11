@@ -70,6 +70,8 @@ class handler:
         
         with open('wilaya\Commune_Of_Algeria.json', 'r', encoding='utf8') as w:
             data = [baladiya for baladiya in json.load(w) if baladiya['name'].lower() == baladiyaName.lower() or baladiyaName.lower() in baladiya['name'].lower()]
-            
-        return data[0]
-    
+        
+        try:
+            return data[0]
+        except:
+            return []
